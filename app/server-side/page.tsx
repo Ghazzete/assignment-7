@@ -40,9 +40,9 @@ const BooksPage: React.FC<BooksPageProps> = ({ books }) => {
 
               {/* Learn more button */}
               <button className="relative mt-4 bg-gradient-to-tl from-blue-500 via-indigo-700 to-purple-700 px-6 py-2 text-white rounded-lg font-semibold text-lg overflow-hidden group">
-    <span className="absolute inset-0 bg-gradient-to-tl from-yellow-500 via-orange-500 to-yellow-500 transform group-hover:scale-y-100 scale-y-0 transition-transform duration-500 origin-bottom z-0"></span>
-    <span className="relative z-10">Learn More</span>
-  </button>
+                <span className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 transform group-hover:scale-y-100 scale-y-0 transition-transform duration-500 origin-bottom z-0"></span>
+                <span className="relative z-10">Learn More</span>
+              </button>
             </div>
           ))}
         </div>
