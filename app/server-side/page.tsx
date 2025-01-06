@@ -39,9 +39,10 @@ const BooksPage: React.FC<BooksPageProps> = ({ books }) => {
               <p className="font-medium text-gray-600 mb-4 text-sm">by {book.author}</p>
 
               {/* Learn more button */}
-              <button className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-300">
-                Learn More
-              </button>
+              <button className="relative mt-4 bg-gradient-to-tl from-blue-500 via-indigo-700 to-purple-700 px-6 py-2 text-white rounded-lg font-semibold text-lg overflow-hidden group">
+    <span className="absolute inset-0 bg-gradient-to-tl from-yellow-500 via-orange-500 to-yellow-500 transform group-hover:scale-y-100 scale-y-0 transition-transform duration-500 origin-bottom z-0"></span>
+    <span className="relative z-10">Learn More</span>
+  </button>
             </div>
           ))}
         </div>
